@@ -1,9 +1,10 @@
 
 <img src=".doxygen/images/logo_Final.png" style="width:250px; float: right; margin: 0px 10px 10px 10px;" alt="Final Exam"/>
 
-The project's home page is hosted by GitHub at:  https://github.com/marknelsonengineer-sp23/sre_lab4_memscan
+The project's home page is hosted by GitHub at:  https://github.com/marknelsonengineer-sp23/ee205_sp23_final_1_linked_list
 
-The source code is documented at:  https://www2.hawaii.edu/~marknels/sre/memscan  (hosted by The University of Hawaiʻi at Mānoa)
+The source code is documented at:  https://www2.hawaii.edu/~marknels/ee205/sp23_final_1_linked_list 
+(hosted by The University of Hawaiʻi at Mānoa)
 
 Linked List
 ===========
