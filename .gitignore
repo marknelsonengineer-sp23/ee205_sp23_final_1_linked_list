@@ -1,0 +1,37 @@
+###############################################################################
+### University of Hawaii, College of Engineering
+### EE 205 - Spr 2023 - Final Exam 1 - Linked List
+###
+### @see https://git-scm.com/docs/gitignore
+###
+### @file    .gitignore
+### @author  Mark Nelson <marknels@hawaii.edu>
+###############################################################################
+
+# Ignore CMake files
+/cmake-build-debug/
+/cmake-build-release/
+
+# Ignore all object files
+*.o
+
+# Ignore the executable file
+main
+boost_tests
+a.out
+
+# Ignore a hidden file for MacOS filesystems
+.DS_Store
+Thumbs.db
+
+# Ignore vi swap files
+.*.swp
+
+# Ignore Doxygen docs
+.doxygen/docs
+
+# Ignore CLion files
+.idea/
+
+# Ignore gdb files
+.gdb_history
