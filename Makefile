@@ -29,5 +29,8 @@ doc: $(TARGET)
 	doxygen .doxygen/Doxyfile
 	rsync --recursive --mkpath --checksum --delete .doxygen/images  .doxygen/docs/html/.doxygen
 
+publish: doc
+	rsync --recursive --checksum --delete --compress --stats --chmod=o+r,Do+x .doxygen/docs/html/ marknels@uhunix.hawaii.edu:~/public_html/ee205/sp23_final_1_linked_list
+
 clean:
 	rm -f $(TARGET) *.o
